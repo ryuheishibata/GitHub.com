@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 10%;
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+header .headline {
+  font-size: 22px;
+  border-top:1px;
+  border-bottom:1px;
+}
+.nav-list {
+  padding-left:40px;
+}
+
