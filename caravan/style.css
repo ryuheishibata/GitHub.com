@@ -20,6 +20,8 @@ header {
 }
 header .headline {
   font-size: 32px;
+  margin-top:15px;
+  margin-bottom: 15px;
 }
 .nav-list {
   text-align: center;
@@ -128,7 +130,7 @@ main {
 .instagram-box{
   float: left;
   width: 110px;
-  padding:-top:110px;
+  padding-top:110px;
   background-size: cover;
   background-position: center;
 }
@@ -153,6 +155,20 @@ main {
 .instagram-box:nth-child(6){
   background-image: url(img/road.jpg);
 }
+.pagination{
+  text-align: center;
+  padding-top:50px;
+}
+.pagination p {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  color: #fff;
+  background-color: #acabab;
+  border-radius: 3px;
+  line-height: 30px;
+}
 
 footer {
   width: 100%;
@@ -160,6 +176,7 @@ footer {
   text-align: center;
   padding: 50px 0;
   background-color:#868282;
+  margin-top: 120px;
 }
 .footer-text{
   color:#fff;
